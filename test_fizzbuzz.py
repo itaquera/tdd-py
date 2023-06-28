@@ -7,10 +7,10 @@ class TestFizzBuzz(unittest.TestCase):
         self.fb = FizzBuzz()
 
     def test_numero_divisivel_por_tres(self):
-        self.assertEqual(self.fb.fizz(3), "Fizz")
+        self.assertEqual(self.fb.calculate(3), "Fizz")
 
     def test_numero_divisivel_por_cinco(self):
-        self.assertEqual(self.fb.buzz(5), "Buzz")
+        self.assertEqual(self.fb.calculate(5), "Buzz")
 
     def test_numero_divisivel_por_tres_e_cinco(self):
         self.assertEqual(self.fb.calculate(15), "FizzBuzz")
