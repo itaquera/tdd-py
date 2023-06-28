@@ -9,3 +9,8 @@ class FizzBuzz:
         if number % 5 == 0:
             return "Buzz"
         return ""
+
+    def fizzbuzz(self, number):
+        if number % 15 == 0:
+            return "FizzBuzz"
+        return ""
